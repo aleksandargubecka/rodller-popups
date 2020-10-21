@@ -1,0 +1,44 @@
+{
+  "name": "rodller-popups",
+  "version": "1.0.0",
+  "description": "Package file for Popups WordPress plugin",
+  "homepage": "https://rodller.com",
+  "repository": {
+    "type": "git",
+    "url": "https://rodller.com"
+  },
+  "keywords": [
+    "wordpress",
+    "wordpress-plugin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodller",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-combine-media-queries": "*",
+    "gulp-concat": "*",
+    "gulp-install": "^0.6.0",
+    "gulp-load-plugins": "*",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "natives": "^1.1.4",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.5.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^4.1.0"
+  }
+}

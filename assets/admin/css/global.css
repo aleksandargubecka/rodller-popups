@@ -1,0 +1,11 @@
+.rodller-form-group{
+	padding: 10px 0;
+}
+.rodller-form-group label{
+	display: inline-block;
+	min-width: 120px;
+}
+.rodller-form-group select, .rodller-form-group input[type="text"]{
+	display: inline-block;
+	min-width: 200px;
+}
